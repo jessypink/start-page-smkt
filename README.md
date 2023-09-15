@@ -1,2 +1,1 @@
-# start-page-smkt
-Start page for SMKT usability UE
+![alt text](png/upd2.0-banner.png)
