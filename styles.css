@@ -12,6 +12,7 @@ a:hover {
 html,
 body {
   height: 100%;
+
 }
 
 body {
@@ -21,7 +22,7 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  color: #000000
+  color: #000000;
 }
 
 .tabcontent {
@@ -73,7 +74,7 @@ body {
 }
 
 .nav .nav-link + .nav-link {
-  margin-left: 5rem;
+  margin-left: 2.5rem;
 }
 
 .nav-link.active {
@@ -104,6 +105,8 @@ body {
  * Cover
  */
 .cover {
+
+  padding-bottom: 6rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -115,18 +118,23 @@ body {
  * Footer
  */
 .mastfoot {
+  position: fixed;
+  right: 0px; /* Расстояние от правого края окна браузера */
+  bottom: 0px; /* Расстояние сверху */
+  padding: 10px; /* Поля вокруг текста */
+  max-width: 10%;
+
   align-items: center;
   background-color: rgb(255, 255, 255);
   border-radius: 10px 10px 10px 10px;
   padding-top: 18px;
   min-width: 100%;
-  margin-bottom: 16px;
   /*box-shadow: 0px 3px 2px 0px rgba(34, 60, 80, 0.2);
   border: 1px solid rgb(200,200,200); */
   border-bottom: .27rem solid rgb(63,138,224);
   border-left: 1px solid rgba(34, 60, 80, 0.1);
   border-right: 1px solid rgba(34, 60, 80, 0.1);
-  border-top: 1px solid rgba(34, 60, 80, 0.1);
+  border-top: 2px solid rgba(34, 60, 80, 0.1);
   border-radius: 8px;
 }
 
@@ -204,7 +212,17 @@ body {
 .card-description {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
+  margin-bottom: 6px;
+  line-height: 1;
+  color: black;
 }
+
+
+.card-description :hover {
+  color: black;
+}
+
+
 
 .card-description-light {
   color: #ffffff;
@@ -226,6 +244,18 @@ body {
   min-width: 360px;
 }
 
+.upd-card {
+  margin-top: 24px;
+  padding: 18px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 12px;
+  background-color: rgba(0, 255, 41, 0.03);
+  text-align: left;
+  border: 2px solid rgb(26, 185, 0);
+  max-width: 480px;
+  min-width: 360px;
+}
 
 /*
  * Text-block
@@ -278,11 +308,24 @@ body {
   margin-bottom: 0;
 }
 
+
+
+
+/*
+ * dividers
+ */
 .divider {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   height: 0px;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
+.divider-vertical {
+  height: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 1px;
+  border-left: 1px solid rgba(0,0,0,0.1);
 }
