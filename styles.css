@@ -121,8 +121,13 @@ body {
   padding-top: 18px;
   min-width: 100%;
   margin-bottom: 16px;
-  box-shadow: 0px 3px 2px 0px rgba(34, 60, 80, 0.2);
-  border: 1px solid rgb(200,200,200);
+  /*box-shadow: 0px 3px 2px 0px rgba(34, 60, 80, 0.2);
+  border: 1px solid rgb(200,200,200); */
+  border-bottom: .27rem solid rgb(63,138,224);
+  border-left: 1px solid rgba(34, 60, 80, 0.1);
+  border-right: 1px solid rgba(34, 60, 80, 0.1);
+  border-top: 1px solid rgba(34, 60, 80, 0.1);
+  border-radius: 8px;
 }
 
 .footer-nav {
@@ -228,8 +233,9 @@ body {
 .holder {
   text-align: left;
   align-items: flex-start;
-  padding: 8px;
-  margin: 8px;
+  padding: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 0;
   padding-left: 16px;
   padding-right: 16px;
@@ -270,4 +276,13 @@ body {
   -webkit-font-smoothing: antialiased;
   color: rgb(120,120,120);
   margin-bottom: 0;
+}
+
+.divider {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+
 }
