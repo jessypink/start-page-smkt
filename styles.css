@@ -148,8 +148,8 @@ body {
 
 .div-in-footer {
   display: inline-block;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
 
 }
 
@@ -159,6 +159,19 @@ body {
   display: inline-block;
   width: 30px;
   height: 30px;
+}
+
+#selected-zaglushka {
+  background-color: rgba(34, 60, 80, 0.15);
+  width: 60px;
+  border-radius: 20px;
+}
+
+#selected-zaglushka1 {
+  background-color: rgba(34, 60, 80, 0);
+  width: 60px;
+  border-radius: 20px;
+  margin: 0;
 }
 
 
